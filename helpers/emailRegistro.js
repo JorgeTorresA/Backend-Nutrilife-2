@@ -20,7 +20,7 @@ const emailRegistro = async (datos) => {
         text: 'Comprueba tu cuenta en NUTRI LIFE',
         html: `<p>Hola: ${nombre}, comprueba tu cuenta en Nutri Life </p>
         <p>Tu cuenta ya esta lista, solo debes comprobarla en el siguiente enlace: 
-        <a href="${process.env.FRONTEND_URL}/login/confirmar/${token}">Comprobar Cuenta</a> </p>
+        <a href="${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar Cuenta</a> </p>
         
         <p>Si tu no creaste esta cuenta, ignora este mensaje</p>`
       });

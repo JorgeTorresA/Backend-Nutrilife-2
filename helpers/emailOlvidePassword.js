@@ -20,7 +20,7 @@ const emailOlvidePassword = async (datos) => {
         text: 'Reestablece tu contraseña en NUTRI LIFE',
         html: `<p>Hola: ${nombre}, has solicitado reestablecer tu contraseña en Nutri Life </p>
         <p>Sigue el siguiente enlace para generar nueva contraseña: 
-        <a href="${process.env.FRONTEND_URL}/login/olvide-password/${token}">Reestablecer Contraseña</a> </p>
+        <a href="${process.env.FRONTEND_URL}/olvide-password/${token}">Reestablecer Contraseña</a> </p>
         
         <p>Si tu no creaste esta cuenta, ignora este mensaje</p>`
       });
